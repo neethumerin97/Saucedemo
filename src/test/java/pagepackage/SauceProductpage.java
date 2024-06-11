@@ -12,7 +12,7 @@ public class SauceProductpage {
 	WebDriver driver;
 
 	
-	@FindBy(xpath="//*[@id=\"shopping_cart_container\"]/a")
+	@FindBy(xpath="//*[@id=\"shopping_cart_container\"]/a")                 
 	WebElement cart;
 	
 	@FindBy(xpath="//*[@id=\"checkout\"]")
